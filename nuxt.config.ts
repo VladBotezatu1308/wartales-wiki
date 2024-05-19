@@ -13,14 +13,10 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    "@pinia/nuxt",
-    "@nuxtjs/tailwindcss",
-    '@vueuse/nuxt',
-    '@nuxtjs/color-mode'
   ],
-  pinia: {
-    storesDirs: ['./stores/**'],
-  },
+  // pinia: {
+  //   storesDirs: ['./stores/**'],
+  // },
   vite: {
     vue: {
       template: {
@@ -32,14 +28,14 @@ export default defineNuxtConfig({
     'vuetify/lib/styles/main.sass',
     "@mdi/font/css/materialdesignicons.css",
   ],
-  colorMode: {
-    preference: 'system', // default value of $colorMode.preference
-    fallback: 'dark', // fallback value if not system preference found
-    hid: 'nuxt-color-mode-script',
-    globalName: '__NUXT_COLOR_MODE__',
-    componentName: 'ColorScheme',
-    classPrefix: '',
-    classSuffix: '',
-    storageKey: 'nuxt-color-mode'
-  }
+  // colorMode: {
+  //   preference: 'system', // default value of $colorMode.preference
+  //   fallback: 'dark', // fallback value if not system preference found
+  //   hid: 'nuxt-color-mode-script',
+  //   globalName: '__NUXT_COLOR_MODE__',
+  //   componentName: 'ColorScheme',
+  //   classPrefix: '',
+  //   classSuffix: '',
+  //   storageKey: 'nuxt-color-mode'
+  // }
 })
