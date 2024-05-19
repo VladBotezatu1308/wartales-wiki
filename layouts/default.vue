@@ -1,7 +1,5 @@
 <template>
   <div>
-    <NuxtLink to="/">Home</NuxtLink>
-    <NuxtLink to="/about">About</NuxtLink>
     <v-app class="">
       <h1>Color mode: {{ $colorMode.unknown }}</h1>
       <select v-model="$colorMode.preference">
