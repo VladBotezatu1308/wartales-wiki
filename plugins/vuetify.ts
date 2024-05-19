@@ -7,6 +7,7 @@ import { createVuetify } from 'vuetify'
 
 export default defineNuxtPlugin((nuxtapp) => {
   const vuetify = createVuetify({
+    ssr: true,
     components,
     directives
   })
