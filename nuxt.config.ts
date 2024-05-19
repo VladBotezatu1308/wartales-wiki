@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     storesDirs: ['./stores/**'],
   },
   build: {
-    transpile: ['vuetify'],
+    transpile: ['vuetify', 'vuetify/components', 'vuetify/directives', 'vuetify/styles'],
   },
   vite: {
     vue: {
