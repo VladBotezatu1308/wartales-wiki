@@ -17,9 +17,7 @@
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
-  },
-  "devDependencies": {
+    "vue-router": "^4.3.2",
     "@nuxtjs/color-mode": "^3.4.1",
     "@vueuse/components": "^10.9.0",
     "sass": "^1.77.2",

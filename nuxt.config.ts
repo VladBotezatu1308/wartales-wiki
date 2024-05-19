@@ -25,8 +25,8 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    'vuetify/lib/styles/main.sass',
-    "@mdi/font/css/materialdesignicons.css",
+    // 'vuetify/lib/styles/main.sass',
+    // "@mdi/font/css/materialdesignicons.css",
   ],
   // colorMode: {
   //   preference: 'system', // default value of $colorMode.preference
